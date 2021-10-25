@@ -1,0 +1,40 @@
+package numericData;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double gpa1 = 3.93;
+		double gpa2 = 3.97;
+		double gpa3 = 4.00;
+		String name1 = "Ahmad Asyraaf Danial Bin Norazlan";
+		String matric1 = "F01501";
+		String admission1 = "JULY 2020/2021";
+		String programmename1 = "Foundation Studies in Management Universiti Utara Malaysia (ASASI PENGURUSAN UUM)";
+		String programmecode1 = "U0028";
+		
+		double total;
+		
+		total = (gpa1 + gpa2 + gpa3)/3;
+		
+		System.out.println("Academic Transcript");
+		
+		System.out.println();
+		
+		System.out.println("Name : " + name1);
+		System.out.println("Matric No. : " + matric1);
+		System.out.println("Sem/Session of Admission : " + admission1);
+		System.out.println("Programme : " + programmename1);
+		System.out.println("Programme Code : " + programmecode1);
+		
+		System.out.println();
+		
+		System.out.println("GPA JULY Semester 2020/2021 Session: " + gpa1);
+		System.out.println("GPA DEC Semester 2020/2021 Session: " + gpa2);
+		System.out.println("GPA APR Semester 2020/2021 Session: " + gpa3);
+		
+		System.out.printf ("\nCGPA for 2020/2021 Session: %.2f " , total);
+
+	}
+
+}
