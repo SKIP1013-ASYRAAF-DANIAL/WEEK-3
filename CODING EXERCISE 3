@@ -20,3 +20,31 @@ public class RectangleComputation {
 	}
 
 }
+
+
+package computation;
+
+public class CylinderComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double radius, height, surfaceArea, baseArea, volume;
+		final double PI = 3.14159265;
+		
+		radius = 2.8;
+		height = 12;
+		
+		volume = PI * radius * radius * height;
+		surfaceArea = (2 * PI * radius * height) + (2 * PI * radius * radius);
+		baseArea = PI * radius * radius;
+		
+		System.out.printf("The surface area of a cylinder is : %.4f" , surfaceArea);
+		System.out.println();
+		System.out.printf("The base area of a cylinder is : %.4f  ", baseArea);
+		System.out.println();
+		System.out.printf("The volume of a cylinder is :%.4f", volume);
+		
+	}
+
+}
