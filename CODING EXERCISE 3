@@ -35,9 +35,9 @@ public class CylinderComputation {
 		radius = 2.8;
 		height = 12;
 		
-		volume = PI * radius * radius * height;
-		surfaceArea = (2 * PI * radius * height) + (2 * PI * radius * radius);
-		baseArea = PI * radius * radius;
+		volume = PI * (radius * radius) * height;
+		surfaceArea = (2 * PI * radius * height) + (2 * PI * (radius * radius));
+		baseArea = PI * (radius * radius);
 		
 		System.out.printf("The surface area of a cylinder is : %.4f" , surfaceArea);
 		System.out.println();
